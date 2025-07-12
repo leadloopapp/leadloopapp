@@ -3,13 +3,12 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-  "start": "expo start",
-  "android": "expo start --android",
-  "ios": "expo start --ios",
-  "web": "expo start --web",
-  "web-build": "expo export:web"
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "web-build": "expo export:web"
   },
-
   "dependencies": {
     "@expo/metro-runtime": "~5.0.4",
     "@react-navigation/native": "^7.1.14",
@@ -29,7 +28,8 @@
     "uuid": "^11.1.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.0"
+    "@babel/core": "^7.20.0",
+    "expo-cli": "^6.3.12"
   },
   "private": true
 }
